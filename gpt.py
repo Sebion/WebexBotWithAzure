@@ -5,7 +5,7 @@ import openai
 class gpt(Command):
 
     messages = []
-    messages.append({"role":"system","content":"You are polite assistant named Peter."})
+    messages.append({"role":"system","content":"You are an AI assistant that helps people find information."})
 
     def __init__(self):
         super().__init__()
